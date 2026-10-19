@@ -95,7 +95,7 @@ async function launch() {
     };
     engine=new Engine({canvas:$('game'),executable:'game/index',canvasResizePolicy:2,focusCanvas:true,persistentPaths:['/userfs'],onExit:()=>location.reload(),onPrint:(...args)=>console.log(...args),onPrintError:(...args)=>console.error(...args)});
     try { await engine.init('game/index'); } finally { window.fetch=nativeFetch;wasm=null; }
-    await engine.preloadFile(pack,'index.pck');pack=null;
+    await engine.preloadFile(pack.buffer,'index.pck');pack=null;
     await new Promise(requestAnimationFrame);
     await engine.start({args:['--main-pack','index.pck','--','--map='+selectedMap]});
   } catch(error) { window.fetch=nativeFetch;showError(error); }
