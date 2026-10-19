@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a2b">
+  <meta name="description" content="Drop into Alpine Pop. Big jumps, creative rails, powder turns and your own style. Play the freestyle skiing game in your browser.">
+  <title>Alpine Pop · Play</title>
+  <link rel="canonical" href="https://eyalreichenberg-sudo.github.io/alpine-pop-play/">
+  <meta property="og:title" content="Alpine Pop — Drop in and ride">
+  <meta property="og:description" content="Big air, creative rails and mountain laps. Play Alpine Pop free in your desktop browser.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eyalreichenberg-sudo.github.io/alpine-pop-play/">
+  <meta property="og:image" content="https://eyalreichenberg-sudo.github.io/alpine-pop-play/megapark.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" tabindex="0" aria-label="Alpine Pop skiing game. Press H for controls."></canvas>
+    <section id="launcher" aria-label="Launch Alpine Pop">
+      <img id="key-art" src="megapark.png" alt="Alpine Pop in cyan and orange lettering beside a skier grabbing red skis above the snowy terrain park.">
+      <div class="shade"></div>
+      <header><span class="edition"><i></i> BROWSER BETA</span><div class="header-actions"><button class="quiet" id="copy-link" aria-live="polite">Copy game link</button><button class="quiet" id="controls-open">How to ride <span>↗</span></button></div></header>
+      <div class="launch-panel">
+        <div class="intro"><span class="eyebrow">YOUR MOUNTAIN. YOUR STYLE.</span><h1>One more lap.</h1><p id="map-description">Five park lines. Progression kickers to massive air. Rails to make your own.</p></div>
+        <div class="launch-actions">
+          <fieldset><legend>Choose your mountain</legend><div class="map-options">
+            <button type="button" class="map-option selected" data-map="megapark" aria-pressed="true"><span>01</span> MegaPark <small>JUMPS & JIBS</small></button>
+            <button type="button" class="map-option" data-map="peakside" aria-pressed="false"><span>02</span> Peakside <small>THE WHOLE RESORT</small></button>
+          </div></fieldset>
+          <button id="play" class="play">Drop in <span>↗</span></button>
+        </div>
+        <div id="loading" hidden aria-live="polite"><div class="progress-label"><strong id="status">Getting ready</strong><span id="amount"></span></div><progress id="progress" max="100" value="0" aria-label="Game download"></progress></div>
+        <div id="error" hidden role="alert"><strong>We couldn’t start this lap.</strong><p id="error-detail"></p><button id="retry" class="quiet">Try again ↻</button></div>
+        <footer><div class="quick-controls"><span><kbd>W</kbd> Tuck</span><span><kbd>A</kbd><kbd>D</kbd> Carve / spin</span><span><kbd>Space</kbd> Load / pop</span><span><kbd>S</kbd> Slide / brake</span></div><p id="save-note">Keyboard or controller · Progress saves in this browser</p></footer>
+        <p class="download-note" id="download-note">Desktop browser recommended. First launch downloads the game; later visits reuse cached files.</p>
+        <p class="download-note"><a href="credits.txt" target="_blank" rel="noopener">Credits & licenses</a></p>
+      </div>
+    </section>
+    <nav id="game-tools" hidden aria-label="Game tools"><button id="fullscreen" title="Toggle fullscreen">⛶ <span>Fullscreen</span></button><button id="controls-playing">Controls</button><button id="leave">Leave game</button></nav>
+    <dialog id="controls-dialog"><form method="dialog"><button class="close" aria-label="Close controls">×</button></form><span class="eyebrow">FIND YOUR FLOW</span><h2>Easy to start.<br>Room to get stylish.</h2><div class="control-columns"><section><h3>On the snow</h3><p><kbd>W</kbd> Tuck and build speed</p><p><kbd>A</kbd> <kbd>D</kbd> Carve</p><p><kbd>S</kbd> Sideways speed check</p><p><kbd>Shift</kbd> + <kbd>A</kbd> / <kbd>D</kbd> Tight carve</p><p><kbd>Space</kbd> Hold to load, release to pop</p></section><section><h3>In the air & on rails</h3><p><kbd>A</kbd> <kbd>D</kbd> Spin / rotate on a rail</p><p><kbd>E</kbd> Flip · <kbd>X</kbd> Cork</p><p><kbd>C</kbd> Safety · <kbd>G</kbd> Mute</p><p><kbd>T</kbd> Japan · <kbd>B</kbd> Tail</p><p><kbd>Shift</kbd> + <kbd>A</kbd> / <kbd>D</kbd> Shifty / balance</p></section></div><p class="dialog-foot"><kbd>H</kbd> In-game guide · <kbd>R</kbd> Restart · <kbd>M</kbd> Trails · <kbd>Esc</kbd> Pause<br>Controller: left stick steers, RT tucks, LT brakes, hold/release A to pop. Press a controller button in the game to activate it.</p></dialog>
+    <noscript><p class="noscript">Enable JavaScript to play Alpine Pop.</p></noscript>
+  </main>
+  <script src="game/index.js"></script>
+  <script type="module" src="launcher.js"></script>
+</body>
+</html>

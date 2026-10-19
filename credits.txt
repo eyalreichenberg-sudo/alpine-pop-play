@@ -1,0 +1,89 @@
+ALPINE POP
+
+Built with Godot Engine.
+
+Copyright (c) 2014-present Godot Engine contributors (see AUTHORS.md).
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+ALPINE POP - RECORDED SOUND CREDITS
+All source recordings below are CC0 1.0. Edited versions are used in-game.
+Public high-quality MP3 previews were supplied through Freesound share links.
+
+Alpine ski POV — Lydmakeren
+https://freesound.org/people/Lydmakeren/sounds/567839/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Ski passby — cribbler
+https://freesound.org/people/cribbler/sounds/592379/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Ski lift — 13FPanska_Marval_Lukas
+https://freesound.org/people/13FPanska_Marval_Lukas/sounds/379326/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Passing Chairlift Tower — andriiperevodchyk
+https://freesound.org/people/andriiperevodchyk/sounds/519459/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Ski resort - middle of a trail — schafferdavid
+https://freesound.org/people/schafferdavid/sounds/419313/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Silent windy pine forest — bruno.auzet
+https://freesound.org/people/bruno.auzet/sounds/670307/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Snow Walk — dtown1220
+https://freesound.org/people/dtown1220/sounds/263399/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Railing scrape — luckydigs
+https://freesound.org/people/luckydigs/sounds/168563/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+No YouTube soundtrack was extracted. Source video pages informed reference selection; their audio could not be auditioned through the available tools.
+Snow impacts are foley derived from recorded snow steps; powder and mountain wind are processed interpretations, not separate recordings of those exact actions.
+
+
+ALPINE POP - PHOTOGRAPHED MATERIALS AND SKY
+
+All listed source assets are CC0 1.0, from Poly Haven.
+License: https://polyhaven.com/license
+
+Snow 02 - Rob Tuytel
+https://polyhaven.com/a/snow_02
+2K diffuse, OpenGL normal and roughness maps.
+
+Rock Face - photography by Greg Zaal, processing by Dario Barresi
+https://polyhaven.com/a/rock_face
+2K diffuse, OpenGL normal and roughness maps.
+
+Kloofendal 38d Partly Cloudy (Pure Sky)
+Original photography by Greg Zaal, sky edits by Jarod Guest
+https://polyhaven.com/a/kloofendal_38d_partly_cloudy_puresky
+4K HDR sky panorama, rotated and exposed for the park's lighting.
+
+Downloaded source URLs, upstream MD5 checks and local SHA-256 hashes
+are recorded in sources.json. No assets were extracted from Cork7.
+Mountain meshes were authored in Blender for Alpine Pop.
+
+Loading and launch illustrations: original AI-generated Alpine Pop artwork.
